@@ -91,7 +91,7 @@ body {
     border: none;
     text-align: center;
     top: 55%;
-    left: 12%;
+    /* left: 12%; */
     opacity: 0;
 } 
 
@@ -139,6 +139,7 @@ body {
     .contact {
         text-align: center;
     }
+    
 
 }
 
@@ -150,10 +151,10 @@ body {
     .site-content .site-desc{
         padding-right: 5%;
     }
-
+/* 
     .features input {
-        left: 25%;
-    } 
+        left: 20%;
+    }  */
 
 }
 
