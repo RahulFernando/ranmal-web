@@ -1,0 +1,180 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Pacifico&family=Righteous&family=Roboto+Condensed&family=Ubuntu&display=swap');
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+    font-family: 'Lato';
+}
+
+/* header */
+.navbar-brand {
+    font-family: 'Pacifico';
+    font-size: 35px;
+    color: orange !important;
+}
+
+.nav-link {
+    font-size: 17px;
+    margin: 15px;
+    color: black !important;
+    font-family: 'Roboto Condensed';
+}
+
+.nav-link:hover {
+    opacity: 0.5;
+}
+
+.active .nav-link {
+    color: lightcoral !important;
+}
+
+/* main */
+.site-content {
+    background-image: url('img/3310638.jpg');
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.site-title, .site-desc {
+    color: white;
+    font-family: 'Righteous';
+}
+
+.site-title {
+    margin-top: 30%;
+    margin-bottom: 6%;
+    font-size: 50px;
+}
+
+.site-desc {
+    font-size: 18px;
+    padding-left: 15%;
+}
+
+.site-btn {
+    margin-top: 5%;
+    color: white;
+    margin-bottom: 30%;
+    border: none;
+    background-color: olivedrab;
+}
+
+/* features */
+.features span {
+    color: tomato;
+    font-family: 'Lato';
+    font-size-adjust: 19px;
+    font-weight: 800;
+    padding-left: 5px;
+}
+
+.features h1 {
+    font-family: 'Lato';
+}
+
+.features h5 {
+    font-family: 'Roboto Condensed';
+}
+
+.features input {
+    position: absolute;
+    height: 45px;
+    width: 200px;
+    background-color: olivedrab;
+    color: white;
+    border-radius: 5px;
+    outline: none;
+    border: none;
+    text-align: center;
+    top: 55%;
+    left: 12%;
+    opacity: 0;
+} 
+
+.features .card:hover input{
+    opacity: 1;
+    transition: .5s;
+}
+
+.card {
+    border: none;
+}
+
+.contact h4{
+    font-family: 'Lato';
+}
+
+.contact {
+    font-family: 'Roboto Condensed';  
+}
+
+/* footer */
+.social i {
+    color: #EF5651;
+    font-size: 20px;
+}
+
+.footer-head {
+    font-family: 'Roboto Condensed';
+}
+
+.footer-title {
+    color: orange !important;
+    font-family: 'Pacifico';
+}
+
+.footer-title .copy {
+    color: orange !important;
+}
+
+@media (min-width: 320px) {
+    .site-content .site-btn {
+        margin-left: 5%;
+    }
+
+    .contact {
+        text-align: center;
+    }
+
+}
+
+@media (max-width: 576px) {
+    .site-content .site-title{
+        font-size: 30px;
+    }
+
+    .site-content .site-desc{
+        padding-right: 5%;
+    }
+
+    .features input {
+        left: 25%;
+    } 
+
+}
+
+@media (min-width: 576px) {
+    .site-content .site-title{
+        font-size: 30px;
+    }
+
+    .site-content .site-desc{
+        padding-right: 5%;
+    }
+
+}
+
+@media (min-width: 768px) {
+    .site-content .site-title{
+        font-size: 30px;
+    }
+
+    .site-content .site-desc{
+        padding-right: 5%;
+    }
+
+}
